@@ -17,7 +17,9 @@ RUN apt-get update && apt-get install -y \
 RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
 	apt-get install -y nodejs                                \
 	&& npm install -g @anthropic-ai/claude-code              \
-	&& npm install -g opencode-ai                            #
+	&& npm install -g opencode-ai                            \
+	&& npm install -g @google/gemini-cli                     \
+	&& rm -rf /var/lib/apt/lists/*
 
 RUN groupadd --gid $USER_GID $USER_NAME                                          \
 	&& useradd --uid $USER_UID --gid $USER_GID -m $USER_NAME                 \
