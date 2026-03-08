@@ -4,6 +4,30 @@ USER_NAME="godev"
 echo
 echo "###########################################################################"
 echo "#                                                                         #"
+echo "# DOCKER IMAGE NAME                                                       #"
+echo "#                                                                         #"
+echo "###########################################################################"
+echo
+
+echo "The (expected) Docker image-name should be:"
+echo "${IMAGE_NAME}"
+echo
+
+echo
+echo "###########################################################################"
+echo "#                                                                         #"
+echo "# LINUX USER NAME                                                         #"
+echo "#                                                                         #"
+echo "###########################################################################"
+echo
+
+echo "The Linux user-name (inside the container) should be:"
+echo "${USER_NAME}"
+echo
+
+echo
+echo "###########################################################################"
+echo "#                                                                         #"
 echo "# DOCKER IMAGES                                                           #"
 echo "#                                                                         #"
 echo "###########################################################################"
