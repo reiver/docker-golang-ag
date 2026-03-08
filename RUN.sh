@@ -58,7 +58,7 @@ docker ps
 echo
 echo "###########################################################################"
 echo "#                                                                         #"
-echo "# CREATE NEW DOCKER CONTAINER                                             #"
+echo "# CREATING NEW DOCKER CONTAINER, AND — WE ARE GOING IN                    #"
 echo "#                                                                         #"
 echo "###########################################################################"
 echo
