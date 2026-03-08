@@ -1,0 +1,3 @@
+IMAGE_NAME="golang-in-a-box"
+USER_NAME="godev"
+CONTAINER_NAME="gobox"
