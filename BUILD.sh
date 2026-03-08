@@ -1,4 +1,4 @@
-IMAGE_NAME=golang-ag
+IMAGE_NAME="golang-in-a-box"
 
 echo
 echo "###########################################################################"
@@ -52,3 +52,17 @@ echo "##########################################################################
 echo
 
 docker images
+
+echo
+echo "###########################################################################"
+echo "#                                                                         #"
+echo "# DOCKER IMAGE NAME                                                       #"
+echo "#                                                                         #"
+echo "###########################################################################"
+echo
+
+echo "The Docker image was created at:"
+echo "${IMAGE_NAME}"
+echo
+echo "You should NOT have to do this very often."
+echo
