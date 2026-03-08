@@ -92,3 +92,5 @@ echo "${IMAGE_NAME}"
 echo
 echo "You should NOT have to do this very often."
 echo
+echo "You should probably run GOBOX-RUN next."
+echo
