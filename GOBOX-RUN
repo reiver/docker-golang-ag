@@ -91,9 +91,8 @@ echo
 docker run                                              \
 	-v "./Workspaces:/home/${USER_NAME}/Workspaces" \
 	--name "${CONTAINER_NAME}"                      \
-	-it                                             \
-	"${IMAGE_NAME}"                                 \
-	/bin/bash
+	-d                                              \
+	"${IMAGE_NAME}"
 
 echo
 echo "###########################################################################"
